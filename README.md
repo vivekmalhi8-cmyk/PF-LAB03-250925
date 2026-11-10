@@ -1,52 +1,43 @@
-# PF Lab 03 - 250925
+# Programming Fundamentals Lab 03
 
-This repository contains the C programming tasks and exercises completed for the Programming Fundamentals (PF) lab.
+A collection of C programming lab exercises completed as part of the Programming Fundamentals course. The repository is a learning portfolio for practicing small, focused programs and core C concepts.
 
-## Project Overview
+## Contents
 
-This project is about learning and practicing C programming through hands-on coding tasks. The main aim is to strengthen understanding of programming fundamentals, problem solving, and logic building.
+The repository includes individual exercise files (`Q1.c`–`Q10.c`) and standalone examples such as:
 
-## Purpose
+- `Calculator.c` — a basic calculator exercise
+- `Escape seq.c` — practice with C escape sequences
+- `Hello.c` and `Name and age.c` — introductory console input and output
+- `precision.c` — numeric output precision practice
 
-I am interested in using GitHub because it helps me improve my programming skills and keeps my code organized. This repository reflects my passion for programming and my decision to pursue Computer Science as my future path.
+Each source file is a separate program; compile and run one exercise at a time.
 
-## Language
+## Requirements
 
-- C
+- A C compiler such as GCC or Clang
+- A terminal or command prompt
 
-## Learning Goals
+## Build and run
 
-- Understand basic C syntax and structure
-- Practice input/output operations
-- Learn loops, conditions, functions, and arrays
-- Improve problem-solving and debugging skills
-- Build a foundation for future programming projects
-
-## How to Run
-
-Use a C compiler such as GCC:
+For example, to compile and run the calculator exercise with GCC:
 
 ```bash
-gcc main.c -o program
-./program
+gcc Calculator.c -o calculator
+./calculator
 ```
 
-Replace `main.c` with the correct source file name if needed.
+On Windows, run `calculator.exe` after compiling. To run a different exercise, replace `Calculator.c` with its filename and choose a suitable output name. Filenames containing spaces should be quoted in the command line.
 
-## Example Program
+## Learning goals
 
-```c
-#include <stdio.h>
+- Practice writing, compiling, and running C programs
+- Build familiarity with console input/output and common language constructs
+- Improve logical thinking through hands-on exercises
 
-int main() {
-    printf("Welcome to PF Lab 03!\n");
-    return 0;
-}
-```
+## Project status
 
-## Notes
-
-This project is for educational and learning purposes. It helps me practice coding and track my progress in the field of computer programming.
+Educational coursework; exercises may be updated as learning continues. No external dependencies are required.
 
 ## Author
 
